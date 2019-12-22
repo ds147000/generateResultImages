@@ -17,12 +17,12 @@ const color = {
 	"8": "rgba(243,87,93,1)",
 	"9": "rgba(227,6,19,1)",
     "10": "rgba(54,230,44,1)",
-    "大": "#FF0000",
-    "小": "#1183E7",
-    "龙": "#FF0000",
-    "虎": "#1183E7",
-    "单": "#FF0000",
-    "双": "#1183E7"
+    "大": "rgba(164,0,91,1)",
+    "小": "rgba(170,137,189,1)",
+    "龙": "rgba(230,0,18,1)",
+    "虎": "rgba(230,0,18,1)",
+    "单": "rgba(0,153,68,1)",
+    "双": "rgba(243,152,0,1)"
 }
 
 const titleType1 = ['期数', '开奖号码', '冠亚和', '1~5龙虎']
@@ -38,10 +38,12 @@ const size = {
 }
 
 const longSize = {
-    width: 300,
-    height: 40,
-    fontColor: 'red',
-    backgroundColor: '#443A52',
+    width: 350,
+    height: 30,
+    titleHeight: 46,
+    fontColor: 'rgba(50,12,12,1)',
+    backgroundColor: 'rgba(24,144,255,1)',
+    borderColor: '#D2D2D2',
     title: '长龙排行榜'
 }
 
